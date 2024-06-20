@@ -85,7 +85,7 @@ sleep 1
 cd /home/pico/PPPwn-Luckfox/
 
 # Execute the pppwn command with the desired options
-./pppwn --interface eth0 --fw \$FW_VERSION --stage1 "\$STAGE1_FILE" --stage2 "\$STAGE2_FILE" -a -t 5 -wap 2
+./pppwn --interface eth0 --fw \$FW_VERSION --stage1 "\$STAGE1_FILE" --stage2 "\$STAGE2_FILE" -a -wap 2
 
 # Check if the pppwn command was successful
 if [ \$? -eq 0 ]; then
